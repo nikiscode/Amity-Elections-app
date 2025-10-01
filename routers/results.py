@@ -8,7 +8,6 @@ from sqlalchemy import func
 
 router = APIRouter()
 
-
 templates = Jinja2Templates(directory="templates")
 router = APIRouter(prefix="/admin")
 ADMIN_EMAILS = ["admin@amity.edu"]
