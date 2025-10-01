@@ -1,5 +1,4 @@
 # routes/nominate.py
-
 from fastapi import APIRouter, Request, Form, UploadFile, File, Depends
 from fastapi.responses import RedirectResponse
 from fastapi.templating import Jinja2Templates
