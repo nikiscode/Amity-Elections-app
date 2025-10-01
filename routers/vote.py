@@ -4,7 +4,6 @@ from database import get_db
 from models import User, Candidate, Vote, Election
 from fastapi.templating import Jinja2Templates
 from fastapi.responses import RedirectResponse, HTMLResponse
-
 from sqlalchemy.orm import Session
 from datetime import datetime
 
